@@ -112,6 +112,7 @@ int main()
 			// intersection with a block
 			while (!bHitWall && fDistanceToWall < fDepth)
 			{
+
 				fDistanceToWall += fStepSize;
 				int nTestX = (int)(fPlayerX + fEyeX * fDistanceToWall);
 				int nTestY = (int)(fPlayerY + fEyeY * fDistanceToWall);
